@@ -34,23 +34,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14B3895A191BEAF800D2B1B9 /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B3895A191BEAF800D2B1B9 /* Tally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B3895D191BEAF800D2B1B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		14B3895F191BEAF800D2B1B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		14B38961191BEAF800D2B1B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		14B38965191BEAF800D2B1B9 /* Counter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Counter-Info.plist"; sourceTree = "<group>"; };
+		14B38965191BEAF800D2B1B9 /* Tally-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tally-Info.plist"; sourceTree = "<group>"; };
 		14B38967191BEAF800D2B1B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		14B38969191BEAF800D2B1B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		14B3896B191BEAF800D2B1B9 /* Counter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Counter-Prefix.pch"; sourceTree = "<group>"; };
+		14B3896B191BEAF800D2B1B9 /* Tally-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tally-Prefix.pch"; sourceTree = "<group>"; };
 		14B3896C191BEAF800D2B1B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14B3896D191BEAF800D2B1B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		14B38970191BEAF800D2B1B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14B38972191BEAF800D2B1B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		14B38973191BEAF800D2B1B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		14B38975191BEAF800D2B1B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		14B3897B191BEAF800D2B1B9 /* CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B3897B191BEAF800D2B1B9 /* TallyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TallyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B3897C191BEAF800D2B1B9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		14B38984191BEAF800D2B1B9 /* CounterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CounterTests-Info.plist"; sourceTree = "<group>"; };
+		14B38984191BEAF800D2B1B9 /* TallyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TallyTests-Info.plist"; sourceTree = "<group>"; };
 		14B38986191BEAF800D2B1B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		14B38988191BEAF800D2B1B9 /* CounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CounterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,7 +82,7 @@
 		14B38951191BEAF800D2B1B9 = {
 			isa = PBXGroup;
 			children = (
-				14B38963191BEAF800D2B1B9 /* Counter */,
+				14B38963191BEAF800D2B1B9 /* Tally */,
 				14B38982191BEAF800D2B1B9 /* CounterTests */,
 				14B3895C191BEAF800D2B1B9 /* Frameworks */,
 				14B3895B191BEAF800D2B1B9 /* Products */,
@@ -92,8 +92,8 @@
 		14B3895B191BEAF800D2B1B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14B3895A191BEAF800D2B1B9 /* Counter.app */,
-				14B3897B191BEAF800D2B1B9 /* CounterTests.xctest */,
+				14B3895A191BEAF800D2B1B9 /* Tally.app */,
+				14B3897B191BEAF800D2B1B9 /* TallyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,7 +109,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		14B38963191BEAF800D2B1B9 /* Counter */ = {
+		14B38963191BEAF800D2B1B9 /* Tally */ = {
 			isa = PBXGroup;
 			children = (
 				14B3896C191BEAF800D2B1B9 /* AppDelegate.h */,
@@ -120,16 +120,17 @@
 				14B38975191BEAF800D2B1B9 /* Images.xcassets */,
 				14B38964191BEAF800D2B1B9 /* Supporting Files */,
 			);
+			name = Tally;
 			path = Counter;
 			sourceTree = "<group>";
 		};
 		14B38964191BEAF800D2B1B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				14B38965191BEAF800D2B1B9 /* Counter-Info.plist */,
+				14B38965191BEAF800D2B1B9 /* Tally-Info.plist */,
 				14B38966191BEAF800D2B1B9 /* InfoPlist.strings */,
 				14B38969191BEAF800D2B1B9 /* main.m */,
-				14B3896B191BEAF800D2B1B9 /* Counter-Prefix.pch */,
+				14B3896B191BEAF800D2B1B9 /* Tally-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +147,7 @@
 		14B38983191BEAF800D2B1B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				14B38984191BEAF800D2B1B9 /* CounterTests-Info.plist */,
+				14B38984191BEAF800D2B1B9 /* TallyTests-Info.plist */,
 				14B38985191BEAF800D2B1B9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +156,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14B38959191BEAF800D2B1B9 /* Counter */ = {
+		14B38959191BEAF800D2B1B9 /* Tally */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14B3898C191BEAF800D2B1B9 /* Build configuration list for PBXNativeTarget "Counter" */;
+			buildConfigurationList = 14B3898C191BEAF800D2B1B9 /* Build configuration list for PBXNativeTarget "Tally" */;
 			buildPhases = (
 				14B38956191BEAF800D2B1B9 /* Sources */,
 				14B38957191BEAF800D2B1B9 /* Frameworks */,
@@ -167,14 +168,14 @@
 			);
 			dependencies = (
 			);
-			name = Counter;
+			name = Tally;
 			productName = Counter;
-			productReference = 14B3895A191BEAF800D2B1B9 /* Counter.app */;
+			productReference = 14B3895A191BEAF800D2B1B9 /* Tally.app */;
 			productType = "com.apple.product-type.application";
 		};
-		14B3897A191BEAF800D2B1B9 /* CounterTests */ = {
+		14B3897A191BEAF800D2B1B9 /* TallyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14B3898F191BEAF800D2B1B9 /* Build configuration list for PBXNativeTarget "CounterTests" */;
+			buildConfigurationList = 14B3898F191BEAF800D2B1B9 /* Build configuration list for PBXNativeTarget "TallyTests" */;
 			buildPhases = (
 				14B38977191BEAF800D2B1B9 /* Sources */,
 				14B38978191BEAF800D2B1B9 /* Frameworks */,
@@ -185,9 +186,9 @@
 			dependencies = (
 				14B38981191BEAF800D2B1B9 /* PBXTargetDependency */,
 			);
-			name = CounterTests;
+			name = TallyTests;
 			productName = CounterTests;
-			productReference = 14B3897B191BEAF800D2B1B9 /* CounterTests.xctest */;
+			productReference = 14B3897B191BEAF800D2B1B9 /* TallyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 14B38955191BEAF800D2B1B9 /* Build configuration list for PBXProject "Counter" */;
+			buildConfigurationList = 14B38955191BEAF800D2B1B9 /* Build configuration list for PBXProject "Tally" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +218,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14B38959191BEAF800D2B1B9 /* Counter */,
-				14B3897A191BEAF800D2B1B9 /* CounterTests */,
+				14B38959191BEAF800D2B1B9 /* Tally */,
+				14B3897A191BEAF800D2B1B9 /* TallyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +269,7 @@
 /* Begin PBXTargetDependency section */
 		14B38981191BEAF800D2B1B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 14B38959191BEAF800D2B1B9 /* Counter */;
+			target = 14B38959191BEAF800D2B1B9 /* Tally */;
 			targetProxy = 14B38980191BEAF800D2B1B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -377,9 +378,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Counter/Counter-Prefix.pch";
-				INFOPLIST_FILE = "Counter/Counter-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Counter/Tally-Prefix.pch";
+				INFOPLIST_FILE = "Counter/Tally-Info.plist";
+				PRODUCT_NAME = Tally;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,9 +391,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Counter/Counter-Prefix.pch";
-				INFOPLIST_FILE = "Counter/Counter-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Counter/Tally-Prefix.pch";
+				INFOPLIST_FILE = "Counter/Tally-Info.plist";
+				PRODUCT_NAME = Tally;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -412,8 +413,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "CounterTests/CounterTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "CounterTests/TallyTests-Info.plist";
+				PRODUCT_NAME = TallyTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -430,8 +431,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Counter/Counter-Prefix.pch";
-				INFOPLIST_FILE = "CounterTests/CounterTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "CounterTests/TallyTests-Info.plist";
+				PRODUCT_NAME = TallyTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -440,7 +441,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14B38955191BEAF800D2B1B9 /* Build configuration list for PBXProject "Counter" */ = {
+		14B38955191BEAF800D2B1B9 /* Build configuration list for PBXProject "Tally" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14B3898A191BEAF800D2B1B9 /* Debug */,
@@ -449,21 +450,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14B3898C191BEAF800D2B1B9 /* Build configuration list for PBXNativeTarget "Counter" */ = {
+		14B3898C191BEAF800D2B1B9 /* Build configuration list for PBXNativeTarget "Tally" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14B3898D191BEAF800D2B1B9 /* Debug */,
 				14B3898E191BEAF800D2B1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		14B3898F191BEAF800D2B1B9 /* Build configuration list for PBXNativeTarget "CounterTests" */ = {
+		14B3898F191BEAF800D2B1B9 /* Build configuration list for PBXNativeTarget "TallyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14B38990191BEAF800D2B1B9 /* Debug */,
 				14B38991191BEAF800D2B1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

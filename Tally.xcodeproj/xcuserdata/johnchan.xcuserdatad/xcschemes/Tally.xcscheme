@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "14B38959191BEAF800D2B1B9"
-               BuildableName = "Counter.app"
-               BlueprintName = "Counter"
-               ReferencedContainer = "container:Counter.xcodeproj">
+               BuildableName = "Tally.app"
+               BlueprintName = "Tally"
+               ReferencedContainer = "container:Tally.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,24 +28,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "14B3897A191BEAF800D2B1B9"
-               BuildableName = "CounterTests.xctest"
-               BlueprintName = "CounterTests"
-               ReferencedContainer = "container:Counter.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "14B38959191BEAF800D2B1B9"
-            BuildableName = "Counter.app"
-            BlueprintName = "Counter"
-            ReferencedContainer = "container:Counter.xcodeproj">
+            BuildableName = "Tally.app"
+            BlueprintName = "Tally"
+            ReferencedContainer = "container:Tally.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "14B38959191BEAF800D2B1B9"
-            BuildableName = "Counter.app"
-            BlueprintName = "Counter"
-            ReferencedContainer = "container:Counter.xcodeproj">
+            BuildableName = "Tally.app"
+            BlueprintName = "Tally"
+            ReferencedContainer = "container:Tally.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "14B38959191BEAF800D2B1B9"
-            BuildableName = "Counter.app"
-            BlueprintName = "Counter"
-            ReferencedContainer = "container:Counter.xcodeproj">
+            BuildableName = "Tally.app"
+            BlueprintName = "Tally"
+            ReferencedContainer = "container:Tally.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

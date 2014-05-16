@@ -14,6 +14,7 @@
 
 @implementation ViewController
 
+int number = 20;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -24,6 +25,16 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)minus:(id)sender {
+    number--;
+    field.text = [NSString stringWithFormat: @"%i", number];
+}
+
+- (IBAction)plus:(id)sender {
+    number++;
+    field.text = [NSString stringWithFormat: @"%i", number];
 }
 
 @end
