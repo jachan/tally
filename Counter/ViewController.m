@@ -14,7 +14,7 @@
 
 @implementation ViewController
 
-int number = 20;
+int number = 0;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -37,4 +37,8 @@ int number = 20;
     field.text = [NSString stringWithFormat: @"%i", number];
 }
 
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
 @end
